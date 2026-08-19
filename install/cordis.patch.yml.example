@@ -1,0 +1,11 @@
+# dsh-personalization 挂载片段示例
+#
+# 把下面内容追加到你的 profile 用户补丁层：
+#   $DSH_HOME/profiles/<profile名>/cordis.patch.yml
+# 例如本机默认：C:\Users\<用户>\.dsh\profiles\desktop\cordis.patch.yml
+#
+# 追加后需重启 DSH Desktop 生效。
+
+- insert:
+    - id: personalization
+      name: dsh-personalization
