@@ -78,13 +78,6 @@ dsh-personalization/
 
 `$DSH_HOME\AGENTS.md` 中保存的是**你的个人偏好**，请勿提交到公开仓库。本仓库只提供 `examples/AGENTS.md.template` 通用模板。
 
-## 给贡献者
-
-- 改动 `lib/client.js` 后需刷新 GUI 页面（浏览器端 bundle 实时分发、`no-cache`）；组合类改动需重启。
-- 注意保持 `window.__ModuleLoader__.load(...)` 的浏览器插件封装格式与 `dsh.client` 清单声明一致。
-- 若在 GitHub 发布，建议给仓库添加 `dsh-plugin` 话题：
-  `gh repo edit <owner>/dsh-personalization --add-topic dsh-plugin`（或仓库 About → Topics）。
-
 ## License
 
 [MIT](LICENSE)

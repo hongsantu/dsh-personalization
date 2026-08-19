@@ -78,13 +78,6 @@ dsh-personalization/
 
 `$DSH_HOME\AGENTS.md` holds **your personal preferences** — do not commit it to a public repository. This repository only ships the generic `examples/AGENTS.md.template`.
 
-## For contributors
-
-- After changing `lib/client.js`, refresh the GUI page (browser bundles are served live with `no-cache`); composition-level changes require a restart.
-- Keep the `window.__ModuleLoader__.load(...)` browser-plugin wrapper and the `dsh.client` manifest declaration in sync.
-- When publishing on GitHub, add the `dsh-plugin` topic:
-  `gh repo edit <owner>/dsh-personalization --add-topic dsh-plugin` (or repo About → Topics).
-
 ## License
 
 [MIT](LICENSE)
